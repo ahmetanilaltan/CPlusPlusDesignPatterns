@@ -37,27 +37,4 @@ public:
     }
 };
 
-/*
-
-// Kullanıcı
-int main() {
-    // Dijital ses sistemini oluştur
-    DigitalAudioSystem digitalSystem;
-    AnalogAudioSystem analogSystem;
-
-
-    // Adaptörü oluştur ve dijital ses sistemini adaptör içine yerleştir
-    AudioAdapter audioAdapter1(&digitalSystem);
-
-    AudioAdapter audioAdapter2(&analogSystem);
-
-    // Arabirim (interface) kullanılarak adaptörü çağır
-    audioAdapter1.play();
-    audioAdapter2.play();
-
-
-    return 0;
-}
-
-
-*/
+ 

@@ -59,15 +59,4 @@ public:
 
 };
 
-
-/*
-
-int main() {
-    CustomerManager customerManager;
-    customerManager.messageSenderBase = new ChatSender();
-    customerManager.updateCustomer();
-
-    return 0;
-}
-
-*/
+ 

@@ -58,21 +58,4 @@ class President :public ExpenseHandlerBase{
         }
 };
 
-/*
-
-void ChainOfResponsibilityMain() {
-
-Manager* manager = new Manager;
-VicePresident* vicePresident = new VicePresident;
-President* president = new President;
-
-manager->SetSuccessor(vicePresident);
-vicePresident->SetSuccessor(president);
-
-Expense expense {.Detail = "Training", .Amount = 300};
-manager->HandleExpense(expense);
-
-}
-
-*/ 
  

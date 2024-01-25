@@ -96,26 +96,4 @@ public:
     }
 };
 
-/*
-
-#include "DesignPatterns/AbstractFactory/AbstractFactory.cpp"
-
-
-int main() {
-    // Windows temasını kullanmak için WindowsFactory
-    GUIFactory* windowsFactory = new WindowsFactory();
-    Application windowsApp(windowsFactory);
-    windowsApp.createUI();
-
-    // Mac temasını kullanmak için MacFactory
-    GUIFactory* macFactory = new MacFactory();
-    Application macApp(macFactory);
-    macApp.createUI();
-
-    delete windowsFactory;
-    delete macFactory;
-
-    return 0;
-}
-
-*/
+ 

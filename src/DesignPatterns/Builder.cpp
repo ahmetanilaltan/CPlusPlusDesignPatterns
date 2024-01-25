@@ -79,32 +79,4 @@ public:
 
 };
 
-/*
-
-int main() {
-
-    ProductDirector director;
-
-    OldCustomerProductBuilder* obuilder = new OldCustomerProductBuilder();
-    NewCustomerProductBuilder* nbuilder = new NewCustomerProductBuilder();
-
-
-    director.GenerateProduct(obuilder);
-    director.GenerateProduct(nbuilder);
-
-    
-    ProductViewModel model = obuilder->GetModel();
-    //ProductViewModel model = obuilder->GetModel();
-
-    std::cout<<"model.Id :"<< model.Id <<std::endl;
-    std::cout<<"model.CategoryName :"<< model.CategoryName <<std::endl;
-    std::cout<<"model.DiscountApplied :"<< model.DiscountApplied <<std::endl;
-    std::cout<<"model.DiscountedPrice :"<< model.DiscountedPrice <<std::endl;
-    std::cout<<"model.ProductName :"<< model.ProductName <<std::endl;
-    std::cout<<"model.UnitPrice :"<< model.UnitPrice <<std::endl;
  
-    return 0;
-}
-
-
-*/
